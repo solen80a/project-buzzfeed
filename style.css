@@ -1,15 +1,15 @@
 body{
-padding: 20px;
-display: block;
-margin: auto;
-background-color: #e1e1e1;
-font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  display: block;
+  margin: auto;
+  background-color: #e1e1e1;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-background-color: dimgray;
-padding: 20px;
-border-radius: 20px;
+  background-color: dimgray;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .logo {
@@ -26,3 +26,67 @@ main{
 footer{
 
 }
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image{
+  width: 100px;
+}
+
+
+.hide {
+  display: none;
+}
+
+.text{
+  background: white;
+
+}
+
+.TV:hover + .hide {
+  display: block;
+  color: red;
+}
+
+/*
+.image-1{
+  
+}
+
+.text-1{
+  display: none;
+}
+
+.TV-1{
+  background-color: red;
+}
+
+.TV-1:hover{
+  background-color: yellow;
+}
+
+.TV-3{
+  background-color:;
+}
+.text-3{
+  color: darkgrey
+  opacity: 0;
+}
+
+.TV-3:hover{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  opacity: 100;
+}
+
+.overlay {
+  
+  background-color: #008CBA;
+  width: 100%;
+  height: 100%;
+  transition: .3s ease;
+*/
