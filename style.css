@@ -1,15 +1,13 @@
 body{
-  padding: 20px;
   display: block;
   margin: auto;
-  background-color: #e1e1e1;
+  background-color: #ffecf1;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-  background-color: dimgray;
+  background-color: #ffffff;
   padding: 20px;
-  border-radius: 20px;
 }
 
 .logo {
@@ -23,8 +21,22 @@ main{
   text-align: center;
 }
 
-footer{
+h1{
+  color: #ff2a2a;
+}
 
+footer{
+ background-color: #0024fe;
+ color: #ffffff;
+ text-align: center;
+ padding: 20px;
+ bottom:  0;
+}
+
+.profileimg{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 .container {
@@ -32,8 +44,15 @@ footer{
   width: 50%;
 }
 
+.TV{
+width: 200px;
+margin: auto;
+}
+
 .image{
-  width: 100px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 
 
@@ -42,8 +61,10 @@ footer{
 }
 
 .text{
-  background: white;
-
+  background: #FFB5C6;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
 }
 
 .TV:hover + .hide {
